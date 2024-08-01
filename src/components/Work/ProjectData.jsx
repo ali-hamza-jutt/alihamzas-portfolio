@@ -5,6 +5,7 @@ import Work4 from "../../assets/work4.png";
 import Work5 from "../../assets/work5.png";
 import Work6 from "../../assets/work6.png";
 import Work7 from "../../assets/work7.gif";
+import Work8 from '../../assets/work8.png';
 
 export const projectsData = [
   {
@@ -58,6 +59,14 @@ export const projectsData = [
       "Building Dynamic Web Pages with Redux Toolkit: A High-Performing Approach to State Management",
     category: "frontend",
     link: "https://main--my-redux-shopping-cart.netlify.app/",
+  },
+  {
+    id: 8,
+    image: Work8,
+    title:
+      "Create a responsive e-commerce admin dashboard using React.js and Material UI, featuring interactive graphs and advanced design elements with React Toolkit.",
+    category: "frontend",
+    link: "https://ecommerce-admin-board-seven.vercel.app/",
   },
 ];
 
