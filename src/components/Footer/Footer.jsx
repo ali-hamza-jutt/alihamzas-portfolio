@@ -46,7 +46,7 @@ const Footer = () => (
         </a>
 
         <a
-          href="https://www.instagram.com/jitendra.khadoliya"
+          href="https://www.instagram.com/master_7811"
           className="footer__social-link"
           target={"_blank"}
           rel="noreferrer"
