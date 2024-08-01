@@ -10,6 +10,7 @@ import Testimonial from './components/Testimonial/Testimonial';
 import Contact from './components/contact/Contact';
 import Footer from './components/Footer/Footer';
 import ScrollUp from './components/ScrollUp/ScrollUp';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
@@ -27,6 +28,18 @@ function App() {
     </main>
       <ScrollUp/>
       <Footer/>
+      <ToastContainer
+position="top-center"
+autoClose={300}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+theme="dark"
+/>
     </>
   );
 }

@@ -12,17 +12,16 @@ const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
-    setLoading(true);
-    // it will disable the button at loading time
-    setDisableBtn(true);
     e.preventDefault();
+    setLoading(true);
+    setDisableBtn(true);
 
     emailjs
       .sendForm(
-        "service_vgvi3s5",
-        "template_3gdrzsh",
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         form.current,
-        "ZYVzrbTkZi_tgdmnl"
+        process.env.REACT_APP_EMAILJS_USER_ID
       )
       .then(
         (result) => {
@@ -44,7 +43,7 @@ const Contact = () => {
           setDisableBtn(false);
         },
         (error) => {
-          toast.warn(" oops! something went wrong", {
+          toast.warn("Oops! Something went wrong", {
             position: "top-center",
             autoClose: 5000,
             hideProgressBar: false,
@@ -76,7 +75,7 @@ const Contact = () => {
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">alihamza16jutt@gmail.com</span>
               <a
-                href="https://mail.google.com/mail/?view=cm&source=mailto&to=jitenkhadoliya@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&source=mailto&to=alihamza16jutt@gmail.com"
                 className="contact__button"
                 target={"_blank"}
                 rel="noreferrer"
@@ -93,7 +92,7 @@ const Contact = () => {
               <a
                 target={"_blank"}
                 rel="noreferrer"
-                href="https://api.whatsapp.com/send?phone=9079705678&text=Hello, more information!"
+                href="https://api.whatsapp.com/send?phone=923046453314&text=Hello, more information!"
                 className="contact__button"
               >
                 Write Me{" "}
@@ -128,7 +127,7 @@ const Contact = () => {
               <input
                 required
                 type="text"
-                name="user__name"
+                name="from_name"
                 className="contact__form-input"
                 placeholder="Insert Your Name"
               />
@@ -139,17 +138,17 @@ const Contact = () => {
               <input
                 type="email"
                 required
-                name="user__email"
+                name="email"
                 className="contact__form-input"
                 placeholder="Insert Your Email"
               />
             </div>
             {/* Form Project Description tag */}
             <div className="contact__form-div contact__form-area">
-              <label className="contact__form-tag">Project</label>
+              <label className="contact__form-tag">Message</label>
               <textarea
                 required
-                name="project"
+                name="message"
                 cols="30"
                 rows="10"
                 className="contact__form-input"
@@ -163,7 +162,7 @@ const Contact = () => {
               type={"submit"}
               disabled={disableBtn}
             >
-              {loading === true ? (
+              {loading ? (
                 <Loader />
               ) : (
                 <>
