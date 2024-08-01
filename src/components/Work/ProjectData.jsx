@@ -12,7 +12,7 @@ export const projectsData = [
     gif: Work7,
     title: "Dive Deep into My Code Base",
     category: "all",
-    link: "https://github.com/jitendraKhadoliya",
+    link: "https://github.com/ali-hamza-jutt",
   },
   {
     id: 1,

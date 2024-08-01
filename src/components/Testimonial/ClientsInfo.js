@@ -33,11 +33,11 @@ export const ClientsInfo = [
     description:
       "He turned my vision into a reality, creating a website that exceeded my expectations. he has deep expertise in javaScript and seamlessly integrated complex features.",
   },
-  {
-    id: 4,
-    image: Image5,
-    title: "Moiz",
-    description:
-      "He turned my vision into a reality, creating a website that exceeded my expectations. he has deep expertise in javaScript and seamlessly integrated complex features.",
-  },
+  // {
+  //   id: 4,
+  //   image: Image5,
+  //   title: "Moiz",
+  //   description:
+  //     "He turned my vision into a reality, creating a website that exceeded my expectations. he has deep expertise in javaScript and seamlessly integrated complex features.",
+  // },
 ];
