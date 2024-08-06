@@ -2,7 +2,8 @@ import Work1 from "../../assets/work1.png";
 import Work2 from "../../assets/work2.png";
 import Work7 from "../../assets/work7.gif";
 import Work8 from '../../assets/work8.png';
-import Work9 from '../../assets/work9.png'
+import Work9 from '../../assets/work9.png';
+import Work10 from '../../assets/work10-2.png';
 
 export const projectsData = [
   {
@@ -25,6 +26,14 @@ export const projectsData = [
     title: "Netflix Clone App using React, Redux, and Firebase",
     category: "full stack",
     link: "https://netflix-clone-jinix.web.app/",
+  },
+  {
+    id: 10,
+    image: Work10,
+    title:
+      "Craft a stunning, responsive landing page using React.js, showcasing products with diverse card styles and cutting-edge design.",
+    category: "frontend",
+    link: "https://ali-hamza-perfume-parlor-landing.vercel.app/",
   },
   {
     id: 8,

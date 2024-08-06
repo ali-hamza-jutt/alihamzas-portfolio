@@ -2,7 +2,7 @@ import Image1 from "../../assets/testimonial1.jpg";
 import Image2 from "../../assets/testimonial2.jpg";
 import Image3 from "../../assets/testimonial3.jpg";
 import Image4 from "../../assets/testimonial4.jpg";
-import Image5 from "../../assets/testimonial4.jpg";
+
 
 export const ClientsInfo = [
   {
@@ -29,9 +29,9 @@ export const ClientsInfo = [
   {
     id: 4,
     image: Image4,
-    title: "Mehdi",
+    title: "Moiz",
     description:
-      "He turned my vision into a reality, creating a website that exceeded my expectations. he has deep expertise in javaScript and seamlessly integrated complex features.",
+      "I explored a React.js project by Ali Hamza and was impressed. The sleek, responsive UI and fast performance make it easy to navigate. His intuitive design and seamless feature integration enhance the user experience. Exceptional work—worth checking out!",
   },
   // {
   //   id: 4,
