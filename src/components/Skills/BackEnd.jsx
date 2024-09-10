@@ -53,41 +53,41 @@ const BackEnd = () => {
             </div>
           </div>
 
-          <div className="skills__data">
+          {/* <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">CI/CD Pipeline</h3>
               <span className="skills__level">Basic</span>
             </div>
-          </div>
+          </div> */}
 
-          <div className="skills__data">
+          {/* <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Render</h3>
               <span className="skills__level">Intermediate</span>
             </div>
-          </div>
+          </div> */}
 
-          <div className="skills__data">
+          {/* <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">TMDB</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* second line started */}
 
-        <div className="skills__group">
+        {/* <div className="skills__group">
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Strapi</h3>
               <span className="skills__level">Intermediate</span>
             </div>
-          </div>
+          </div> */}
 
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
@@ -111,22 +111,22 @@ const BackEnd = () => {
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
-          <div className="skills__data">
+          {/* <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Cloudinary </h3>
               <span className="skills__level">Basic</span>
             </div>
-          </div>
+          </div> */}
 
-          <div className="skills__data">
+          {/* <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">CoinGecko</h3>
               <span className="skills__level">Intermediate</span>
             </div>
-          </div>
-
+          </div> */}
+{/* 
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
@@ -141,14 +141,14 @@ const BackEnd = () => {
               <h3 className="skills__name">npm</h3>
               <span className="skills__level">Intermediate</span>
             </div>
-          </div>
-          <div className="skills__data">
+          </div> */}
+          {/* <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Deployment</h3>
               <span className="skills__level">Intermediate</span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

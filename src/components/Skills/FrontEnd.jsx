@@ -115,13 +115,13 @@ const FrontEnd = () => {
             </div>
           </div>
 
-          <div className="skills__data">
+          {/* <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">ApexCharts</h3>
               <span className="skills__level">Intermediate</span>
             </div>
-          </div>
+          </div> */}
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
@@ -146,13 +146,13 @@ const FrontEnd = () => {
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
-          <div className="skills__data">
+          {/* <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">React-DnD</h3>
               <span className="skills__level">Intermediate</span>
             </div>
-          </div>
+          </div> */}
 
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
@@ -170,13 +170,13 @@ const FrontEnd = () => {
             </div>
           </div>
 
-          <div className="skills__data">
+          {/* <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Toastify</h3>
               <span className="skills__level">Intermediate</span>
             </div>
-          </div>
+          </div> */}
 
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
