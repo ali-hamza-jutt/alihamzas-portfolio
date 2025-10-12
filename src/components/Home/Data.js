@@ -55,12 +55,9 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Full Stack Web Developer</h3>
+      <h3 className="home__subtitle">Software Engineer | Full Stack Developer</h3>
       <p className="home__description">
-        With a strong foundation in web development and a thirst for knowledge,
-        I am ready to take on any coding challenge. Whether working solo or as
-        part of a team, I bring a passion for creativity and a drive to excel.
-        Let's connect and make something amazing happen!
+       With a strong foundation in full-stack web development and extensive experience in designing scalable backend architectures, I’m always ready to take on complex technical challenges. I bring expertise in modern frameworks and AWS cloud services , ensuring reliable and efficient deployments. Whether working independently or leading a team, I combine creativity, precision, and a results-driven approach to deliver impactful digital solutions. Let’s connect and build something exceptional together.
       </p>
 
       <a href="#contact" className="button button--flex">

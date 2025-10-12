@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import aboutImage from "../../assets/profile.jpg";
+import aboutImage from "../../assets/profile.png";
 import cv from "../../assets/ali_hamza_resume.pdf";
 import Info from "./Info";
 
@@ -21,10 +21,6 @@ const About = () => {
 
             Grounded in a strong focus on <span className="about__description-highlight">UI/UX design</span> and clear <span className="about__description-highlight">communication</span>, I'm committed to creating digital experiences that resonate with users. Let's collaborate to bring your vision to life.
           </p>
-
-
-
-
 
 
           <a download="" href={cv} className="button button--flex">

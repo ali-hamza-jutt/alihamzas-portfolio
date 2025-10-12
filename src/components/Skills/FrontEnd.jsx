@@ -90,7 +90,7 @@ const FrontEnd = () => {
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Netlify</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">Basic</span>
             </div>
           </div>
 
@@ -115,13 +115,13 @@ const FrontEnd = () => {
             </div>
           </div>
 
-          {/* <div className="skills__data">
+          <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">ApexCharts</h3>
+              <h3 className="skills__name">OpenAPI</h3>
               <span className="skills__level">Intermediate</span>
             </div>
-          </div> */}
+          </div>
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>

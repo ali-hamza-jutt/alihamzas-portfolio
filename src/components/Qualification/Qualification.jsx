@@ -145,13 +145,13 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">
-                  Full Stack Web Developer
+                  Software Engineer
                 </h3>
                 <span className="qualification__subtitle">
-                  Software Synergy Solutions and Club. · Full-time , Remote
+                  Sortup
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i>  June 2024 - Present
+                  <i className="uil uil-calender-alt"></i>  December 2024 - September 2025
                 </div>
               </div>
             </div>
@@ -161,10 +161,10 @@ const Qualification = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Open Source Contributions, Gig work </h3>
-                <span className="qualification__subtitle">Web App JavaScript Related Mostly </span>
+                <h3 className="qualification__title">Associate Software Engineer </h3>
+                <span className="qualification__subtitle">CommitStash </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i> 2023 - Present
+                  <i className="uil uil-calender-alt"></i> February 2024 - November 2024
                 </div>
               </div>
 
@@ -187,14 +187,14 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
 
-              <div>
+              {/* <div>
                 <h3 className="qualification__title">
                   Full Stack Web Developer </h3>
-                <span className="qualification__subtitle">Self Employe working on personnel projects</span>
+                <span className="qualification__subtitle">Software Synergy Solutions</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i> 2023 - Present
+                  <i className="uil uil-calender-alt"></i> June 2023 - February 2024
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* =============== Qualification 3 ============== */}
