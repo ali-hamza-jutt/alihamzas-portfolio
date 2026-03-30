@@ -64,6 +64,70 @@ const BackEnd = () => {
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
+              <h3 className="skills__name">GitHub Actions</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">Docker</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">AWS EC2</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">GCP Cloud Run</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">Redis</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">RabbitMQ</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">Python</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">Hugging Face</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
               <h3 className="skills__name">PostgresSql</h3>
               <span className="skills__level">Intermediate</span>
             </div>
