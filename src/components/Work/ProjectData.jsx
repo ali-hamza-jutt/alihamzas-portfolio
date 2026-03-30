@@ -1,10 +1,4 @@
-import Work1 from "../../assets/work1.png";
-import Work2 from "../../assets/work2.png";
 import Work7 from "../../assets/work7.gif";
-import Work8 from '../../assets/work8.png';
-import Work9 from '../../assets/work9.png';
-import Work10 from '../../assets/work10-2.png';
-import Work11 from '../../assets/work11.png';
 import Work12 from '../../assets/work12.png';
 import Work13 from '../../assets/work13.jpeg';
 
