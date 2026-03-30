@@ -58,7 +58,7 @@ const Qualification = () => {
                   Bachelor's of Computer Science
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i> 2022 - Present
+                  <i className="uil uil-calender-alt"></i> 2022 - 2026
                 </div>
               </div>
 
@@ -151,7 +151,7 @@ const Qualification = () => {
                   Sortup
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i>  December 2024 - September 2025
+                  <i className="uil uil-calender-alt"></i>  December 2024 - January 2026
                 </div>
               </div>
             </div>
